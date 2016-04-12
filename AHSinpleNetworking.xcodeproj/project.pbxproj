@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1B575D151CBCE2A80063D4D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D141CBCE2A80063D4D3 /* AppDelegate.swift */; };
-		1B575D171CBCE2A80063D4D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D161CBCE2A80063D4D3 /* ViewController.swift */; };
-		1B575D1A1CBCE2A80063D4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B575D181CBCE2A80063D4D3 /* Main.storyboard */; };
 		1B575D1C1CBCE2A80063D4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B575D1B1CBCE2A80063D4D3 /* Assets.xcassets */; };
 		1B575D1F1CBCE2A80063D4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B575D1D1CBCE2A80063D4D3 /* LaunchScreen.storyboard */; };
 		1B575D2A1CBCE2A80063D4D3 /* AHSinpleNetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D291CBCE2A80063D4D3 /* AHSinpleNetworkingTests.swift */; };
 		1B575D351CBCE2A80063D4D3 /* AHSinpleNetworkingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D341CBCE2A80063D4D3 /* AHSinpleNetworkingUITests.swift */; };
+		1B575D4C1CBCE2F90063D4D3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D431CBCE2F90063D4D3 /* BaseViewController.swift */; };
+		1B575D4F1CBCE2F90063D4D3 /* DataTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D461CBCE2F90063D4D3 /* DataTaskViewController.swift */; };
+		1B575D501CBCE2F90063D4D3 /* DownloadFileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B575D471CBCE2F90063D4D3 /* DownloadFileView.xib */; };
+		1B575D511CBCE2F90063D4D3 /* DownloadFIleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D481CBCE2F90063D4D3 /* DownloadFIleViewController.swift */; };
+		1B575D521CBCE2F90063D4D3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D491CBCE2F90063D4D3 /* Model.swift */; };
+		1B575D561CBCE30B0063D4D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D551CBCE30B0063D4D3 /* ViewController.swift */; };
+		1B575D581CBCE3360063D4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B575D571CBCE3360063D4D3 /* Main.storyboard */; };
+		1B575D5B1CBCE36C0063D4D3 /* AHNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B575D5A1CBCE36C0063D4D3 /* AHNetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +42,6 @@
 /* Begin PBXFileReference section */
 		1B575D111CBCE2A80063D4D3 /* AHSinpleNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHSinpleNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B575D141CBCE2A80063D4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B575D161CBCE2A80063D4D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B575D191CBCE2A80063D4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B575D1B1CBCE2A80063D4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B575D1E1CBCE2A80063D4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B575D201CBCE2A80063D4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		1B575D301CBCE2A80063D4D3 /* AHSinpleNetworkingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHSinpleNetworkingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B575D341CBCE2A80063D4D3 /* AHSinpleNetworkingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHSinpleNetworkingUITests.swift; sourceTree = "<group>"; };
 		1B575D361CBCE2A80063D4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B575D431CBCE2F90063D4D3 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1B575D461CBCE2F90063D4D3 /* DataTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTaskViewController.swift; sourceTree = "<group>"; };
+		1B575D471CBCE2F90063D4D3 /* DownloadFileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadFileView.xib; sourceTree = "<group>"; };
+		1B575D481CBCE2F90063D4D3 /* DownloadFIleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadFIleViewController.swift; sourceTree = "<group>"; };
+		1B575D491CBCE2F90063D4D3 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1B575D551CBCE30B0063D4D3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B575D571CBCE3360063D4D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1B575D5A1CBCE36C0063D4D3 /* AHNetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AHNetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,11 @@
 		1B575D131CBCE2A80063D4D3 /* AHSinpleNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				1B575D591CBCE35B0063D4D3 /* NetworkingManger */,
+				1B575D421CBCE2C20063D4D3 /* FunctionType */,
 				1B575D141CBCE2A80063D4D3 /* AppDelegate.swift */,
-				1B575D161CBCE2A80063D4D3 /* ViewController.swift */,
-				1B575D181CBCE2A80063D4D3 /* Main.storyboard */,
+				1B575D571CBCE3360063D4D3 /* Main.storyboard */,
+				1B575D551CBCE30B0063D4D3 /* ViewController.swift */,
 				1B575D1B1CBCE2A80063D4D3 /* Assets.xcassets */,
 				1B575D1D1CBCE2A80063D4D3 /* LaunchScreen.storyboard */,
 				1B575D201CBCE2A80063D4D3 /* Info.plist */,
@@ -123,6 +137,26 @@
 				1B575D361CBCE2A80063D4D3 /* Info.plist */,
 			);
 			path = AHSinpleNetworkingUITests;
+			sourceTree = "<group>";
+		};
+		1B575D421CBCE2C20063D4D3 /* FunctionType */ = {
+			isa = PBXGroup;
+			children = (
+				1B575D431CBCE2F90063D4D3 /* BaseViewController.swift */,
+				1B575D461CBCE2F90063D4D3 /* DataTaskViewController.swift */,
+				1B575D471CBCE2F90063D4D3 /* DownloadFileView.xib */,
+				1B575D481CBCE2F90063D4D3 /* DownloadFIleViewController.swift */,
+				1B575D491CBCE2F90063D4D3 /* Model.swift */,
+			);
+			name = FunctionType;
+			sourceTree = "<group>";
+		};
+		1B575D591CBCE35B0063D4D3 /* NetworkingManger */ = {
+			isa = PBXGroup;
+			children = (
+				1B575D5A1CBCE36C0063D4D3 /* AHNetworkingManager.swift */,
+			);
+			name = NetworkingManger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B575D1F1CBCE2A80063D4D3 /* LaunchScreen.storyboard in Resources */,
+				1B575D581CBCE3360063D4D3 /* Main.storyboard in Resources */,
+				1B575D501CBCE2F90063D4D3 /* DownloadFileView.xib in Resources */,
 				1B575D1C1CBCE2A80063D4D3 /* Assets.xcassets in Resources */,
-				1B575D1A1CBCE2A80063D4D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B575D171CBCE2A80063D4D3 /* ViewController.swift in Sources */,
+				1B575D521CBCE2F90063D4D3 /* Model.swift in Sources */,
+				1B575D4F1CBCE2F90063D4D3 /* DataTaskViewController.swift in Sources */,
+				1B575D561CBCE30B0063D4D3 /* ViewController.swift in Sources */,
+				1B575D511CBCE2F90063D4D3 /* DownloadFIleViewController.swift in Sources */,
+				1B575D5B1CBCE36C0063D4D3 /* AHNetworkingManager.swift in Sources */,
 				1B575D151CBCE2A80063D4D3 /* AppDelegate.swift in Sources */,
+				1B575D4C1CBCE2F90063D4D3 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1B575D181CBCE2A80063D4D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B575D191CBCE2A80063D4D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1B575D1D1CBCE2A80063D4D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
